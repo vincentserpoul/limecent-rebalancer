@@ -1,0 +1,6 @@
+target
+.env
+.server_ip
+deploykey*
+*_tokens.json
+Cargo.lock

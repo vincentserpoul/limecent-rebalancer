@@ -1,0 +1,25 @@
+[package]
+name = "rebalancer"
+version = "0.1.0"
+authors = ["Vincent Serpoul <vincent@serpoul.com>"]
+description = "limecent arbiter"
+repository = "https://www.github.com/vincentserpoul/limecent-rebalancer"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+keywords = ["exchanges", "rebalancer"]
+categories = ["api", "lib"]
+edition = "2018"
+
+[package.metadata.release]
+disable-publish = true
+no-dev-version = true
+
+[lib]
+name = "rebalancer"
+path = "src/lib.rs"
+
+[[bin]]
+name = "rebalancer"
+path = "src/bin/rebalancer.rs"
+
+[dependencies]
